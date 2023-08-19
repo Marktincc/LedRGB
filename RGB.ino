@@ -1,6 +1,6 @@
 int  led =  11;
 
-//MARKTIN ANDRES CASTILLO CUERVO YY ANDREY YULIAN BENITEZ
+
 
 void setup()
 {
@@ -10,6 +10,7 @@ void setup()
 
 void loop()
 {
+  while(true){
 
   digitalWrite(led, HIGH);
   delay(15000);
@@ -19,6 +20,7 @@ void loop()
   delay(15000);
   digitalWrite(led, LOW);
   delay(20000);
+  }
 
 
 }
